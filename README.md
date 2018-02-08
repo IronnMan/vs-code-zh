@@ -22,6 +22,7 @@ Using multiple cursors allows you to edit multiple parts of the document at once
 3. Create cursors on all occurrences of a string - select one instance of a string e.g. `background-color` and press `⇧⌘L`. Now you can replace all instances by simply typing.
 
 That is the tip of the iceberg for multi-cursor editing. Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
+![keyboard reference guide](img/keyboard-guide.png)
 
 
 
