@@ -1,28 +1,28 @@
-# Interactive Editor Playground
-The core editor in VS Code is packed with features. This page highlights a number of them and lets you interactively try them out through the use of a number of embedded editors. For full details on the editor features for VS Code and more head over to our [documentation](https://code.visualstudio.com/docs#vscode).
+# VS Code 交互式演练场
+VS Code 功能非常齐全。 这个页面突出显示了它们中的一些，并且可以通过使用一些嵌入式编辑器来交互式地尝试它们。有关 VS Code 的编辑器功能的更多详细信息，请参阅我们的 [文档](https://code.visualstudio.com/docs#vscode).
 
-- [Multi-cursor Editing](#multi-cursor-editing) - block selection, select all occurrences, add additional cursors and more
-- [IntelliSense](#intellisense) - get code assistance and parameter suggestions for your code and external modules
-- [Line Actions](#line-actions) - quickly move lines around to re-order your code.
-- [Rename Refactoring](#rename-refactoring) - quickly rename symbols across your code base.
-- [Refactoring via Extraction](#refactoring-via-extraction) - quickly extract common code into a separate function or constant.
-- [Formatting](#formatting) - keep your code looking great with inbuilt document & selection formatting.
-- [Code Folding](#code-folding) - focus on the most relevant parts of your code by folding other areas.
-- [Errors and Warnings](#errors-and-warnings) - see errors and warning as you type.
-- [Snippets](#snippets) - spend less time typing with snippets.
-- [Emmet](#emmet) - integrated Emmet support takes HTML and CSS editing to the next level.
-- [JavaScript Type Checking](#javascript-type-checking) - perform type checking on your JavaScript file using TypeScript with zero configuraion.
+- [Multi-cursor Editing](#multi-cursor-editing)（多光标编辑） - 块选择，选择所有的事件，添加额外的游标等等
+- [IntelliSense](#intellisense) （智能感知）- 为您的代码和外部模块获取代码帮助和参数建议
+- [Line Actions](#line-actions) （行动）- 快速移动线条来重新排序您的代码。
+- [Rename Refactoring](#rename-refactoring) （重命名重构）- 快速重命名您的代码库中的符号。
+- [Refactoring via Extraction](#refactoring-via-extraction) （通过提取进行重构）- 快速提取共同的代码到一个单独的函数或常量。
+- [Formatting](#formatting)（格式化） - 使用内置的文档和选择格式让代码看起来很棒。
+- [Code Folding](#code-folding)（代码折叠） - 通过折叠其他区域来关注代码中最相关的部分。
+- [Errors and Warnings](#errors-and-warnings)（错误和警告） - 在输入时看到错误和警告。
+- [Snippets](#snippets) （片段）- 花费更少的时间用片段打字。
+- [Emmet](#emmet) - 集成的 Emmet 支持将 HTML 和 CSS 编辑提高到一个新的水平。
+- [JavaScript Type Checking](#javascript-type-checking)（JavaScript类型检查） - 使用零配置的 TypeScript 对您的 JavaScript 文件执行类型检查。
 
 
 
 ## Multi-Cursor Editing
-Using multiple cursors allows you to edit multiple parts of the document at once, greatly improving your productivity. Try the following actions in the code block below:
+使用多个光标可以一次编辑文档的多个部分，从而大大提高您的工作效率。在下面的代码块中尝试以下操作：
 
-1. Box Selection - press any combination of  `⇧⌥⌘↓`, `⇧⌥⌘→`, `⇧⌥⌘↑`, `⇧⌥⌘←` to select a block of text. You can also press `⇧⌥` while selecting text with the mouse.
-2. Add a cursor - press `⌥⌘↑` to add a new cursor above, or `⌥⌘↓` to add a new cursor below. You can also use your mouse with `⌥+Click` to add a cursor anywhere.
-3. Create cursors on all occurrences of a string - select one instance of a string e.g. `background-color` and press `⇧⌘L`. Now you can replace all instances by simply typing.
+1. 文本框选择 - 按 `⇧⌥⌘↓`, `⇧⌥⌘→`, `⇧⌥⌘↑`, `⇧⌥⌘←` 的任意组合选择一个文本块。用鼠标选择文字时，也可以按 `⇧⌥`。
+2. 添加一个光标 - 按 `⌥⌘↑` 在上面添加一个新的光标，或者 `⌥⌘↓` 在下面添加一个新的光标。你也可以使用鼠标与 `⌥+Click` 在任何地方添加光标。
+3. 在所有出现的字符串上创建游标 - 选择一个字符串的一个实例，例如 `background-color` 并按下 `⇧⌘L`。 现在你可以通过输入来替换所有的实例。
 
-That is the tip of the iceberg for multi-cursor editing. Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
+这是 Multi-Cursor Editing 的冰山一角。 Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
 
 ![keyboard Reference Guide](img/keyboard-guide.png)
 
