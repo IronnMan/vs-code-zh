@@ -23,9 +23,27 @@ Using multiple cursors allows you to edit multiple parts of the document at once
 
 That is the tip of the iceberg for multi-cursor editing. Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
 
-![keyboard reference guide](img/keyboard-guide.png)
+![keyboard Reference Guide](img/keyboard-guide.png)
 
 > CSS Tipe: you may have noticed in the example above we also provide color swatches inline for CSS, additionally if you hover over an element such as `#p1` we will show how this is represented in HTML. These swatches also act as color pickers that allow you to easily change a color value. A simple example of some lanuage-specific editor features.
+
+
+## IntelliSense
+Visual Studio Code comes with the powerful IntelliSense for JavaScript and TypeScript pre-installed. In the below example, position the text cursor in front of the error underline, right after the dot and press `⌃Space` to invoke IntelliSense. Notice how the suggestion comes from the Request API.
+
+![intelli Sense](img/intelliSense.png)
+
+> Tip: while we ship JavaScript and TypeScript support out of the box other languages can be upgraded with better IntelliSense through one of the many `extensions`.
+
+
+## Line Actions
+Since it's very common to work with the entire text in a line we provide a set of useful shortcuts to help with this.
+
+1. Copy a line and insert it above or below the current position with `⇧⌥↓` or `⇧⌥↑` respectively.
+2. Move an entire line or selection of lines up or down with `⌥↑` and `⌥↓` respectively.
+3. Delete the entire line with `⇧⌘K`.
+
+![line Actions](img/lineActions.png)
 
 
 
