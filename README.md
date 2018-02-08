@@ -124,7 +124,7 @@ Sometimes type checking your JavaScript code can help you spot mistakes you migh
 # Thanks!
 Well if you have got this far then you will have touched on some of the editing features in Visual Studio Code. But don't stop now :) We have lots of additional [documentation](https://code.visualstudio.com/docs), [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) and [tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode) for the product that will help you learn how to use it. And while you are here, here are a few additional things you can try:
 
-- Open the Integrated Terminal by pressing `⌃` `, then see what's possilble by [reviewing the terminal documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- Open the Integrated Terminal by pressing `` ⌃` ``, then see what's possilble by [reviewing the terminal documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - Work with version control by pressing `⌃⇧G G`. Understand how to stage, commit, change branches, and view diffs and more by reviewing the [version control documentation](https://code.visualstudio.com/docs/editor/versioncontrol)
 - Browse thousands of extensions in our integrated gallery by pressing `⇧⌘X`. The [documentation] will show you how to see the most popular extensions, disable installed ones and more.
 
