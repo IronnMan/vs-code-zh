@@ -22,83 +22,83 @@ VS Code 功能非常齐全。 这个页面突出显示了它们中的一些，�
 2. 添加一个光标 - 按 `⌥⌘↑` 在上面添加一个新的光标，或者 `⌥⌘↓` 在下面添加一个新的光标。你也可以使用鼠标与 `⌥+Click` 在任何地方添加光标。
 3. 在所有出现的字符串上创建游标 - 选择一个字符串的一个实例，例如 `background-color` 并按下 `⇧⌘L`。 现在你可以通过输入来替换所有的实例。
 
-这是 Multi-Cursor Editing 的冰山一角。 Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
+这是 Multi-Cursor Editing 的冰山一角。 查看选择菜单和我们的 [键盘快捷方式指南](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 以了解更多操作。
 
 ![keyboard Reference Guide](img/keyboard-guide.png)
 
-> CSS Tipe: you may have noticed in the example above we also provide color swatches inline for CSS, additionally if you hover over an element such as `#p1` we will show how this is represented in HTML. These swatches also act as color pickers that allow you to easily change a color value. A simple example of some lanuage-specific editor features.
+> CSS Tipe: 你可能已经注意到，在上面的例子中，我们也为 CSS 提供了内嵌的颜色板，另外如果你把鼠标悬停在像 `#p1` 这样的元素上，我们将会展示如何用 HTML 表示。 这些色板也可以作为颜色选择器，让您轻松更改颜色值。 一些特定于语言的编辑器功能的简单示例。
 
 
 
 ## IntelliSense
-Visual Studio Code comes with the powerful IntelliSense for JavaScript and TypeScript pre-installed. In the below example, position the text cursor in front of the error underline, right after the dot and press `⌃Space` to invoke IntelliSense. Notice how the suggestion comes from the Request API.
+Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript 预安装。在下面的示例中，将文本光标放在错误下划线的前面，紧跟在点之后，按 `⌃Space` 来调用 IntelliSense。注意这个建议来自 Request API。
 
 ![intelli Sense](img/intelliSense.png)
 
-> Tip: while we ship JavaScript and TypeScript support out of the box other languages can be upgraded with better IntelliSense through one of the many `extensions`.
+> Tip: 当我们提供开箱即用的 JavaScript 和  TypeScript 支持时，其他语言可以通过许多 `extensions` 中的一个，通过更好的 IntelliSense 进行升级。
 
 
 
 ## Line Actions
-Since it's very common to work with the entire text in a line we provide a set of useful shortcuts to help with this.
+由于处理整行文本非常常见，因此我们提供了一组有用的快捷方式来帮助解决这个问题。
 
-1. Copy a line and insert it above or below the current position with `⇧⌥↓` or `⇧⌥↑` respectively.
-2. Move an entire line or selection of lines up or down with `⌥↑` and `⌥↓` respectively.
+1. 复制一行并分别用 `⇧⌥↓` 或 `⇧⌥↑` 将其插入当前位置的上方或下方。
+2. 分别用 `⌥↑` 和 `⌥↓` 键向上或向下移动整行或者选择行。
 3. Delete the entire line with `⇧⌘K`.
 
 ![line Actions](img/lineActions.png)
 
-> Tip: Anoher very common task is to comment out a block of code - you can toggle commenting by pressing `⌘/`.
+> Tip: 另一个非常常见的任务是注释掉一段代码 - 你可以通过按下 `⌘/` 来切换注释。
 
 
 
 ## Rename Refactoring
-It's easy to rename a symbol such as a function name or variable name. Hit `F2` while in the symbol `Book` to rename all instances - this will occur across all files in a project. You can also see refactoring in the right-click context menu.
+重命名符号（如函数名称或变量名称）很容易。在字符 `Book` 前中点击，按 `F2` 来重命名所有实例 - 这将发生在项目中的所有文件中。你也可以在右键单击上下文菜单中看到重构。
 
 ![rename Refactoring](img/renameRefactoring.png)
 
-> JSDoc Tip: The example above also showcased another way to get IntelliSense hints by using `JSDoc` comments. You can try this out by invoking the `Book` function and seeing the enhanced context in the IntelliSense menu for the function as well as parameters.
+> JSDoc Tip: 上面的例子还展示了另一种通过使用 `JSDoc` 注释来获得 IntelliSense 提示的方法。你也可以通过调用 `Book` 函数并在 IntelliSense 菜单中查看改功能的增强上下文以及参数来尝试此操作。
 
 
 
 ## Refactoring via Extraction
-Sometimes you want to refactor already written code into a separate function or constant to reuse it later. Select the lines you want to refactor out and press `⌘.` or click the little light bulb and choose one of the respective `Extract to...` options. Try it by selecting the code inside the `if`-clause on line 3 or any other common code you want to refactor out.
+有时候你想把已经写好的代码重构成一个单独的函数或者常量，以后重用。选择你想重构的行并按下 `⌘.`，或者点击小灯泡，选择其中一个 `Extract to...` 选项。 通过选择第 3 行 的 `if` 语句中的代码或任何其他需要重构的常用代码来尝试。
 
 ![refactoring Via Extraction](img/refactoringViaExtraction.png)
 
 
 
 ## Formatting
-Keeping your code looking great is hard without a good formatter. Luckily it's easy to format content either the entire document with `⇧⌥F`. Formatting can be applied to the current selection with `⌘K ⌘F`. Both of these options are also available through the right-click context menu.
+如果没有一个好的格式化程序，保持你的代码整洁是很难的。幸运的是，用 `⇧⌥F` 格式化整个文档的内容是很容易的。格式化可以通过 `⌘K ⌘F`应用于当前选择。 这两个选项也可以通过右键单击上下文菜单来获得。
 
 ![formatting](img/formatting.png)
 
-> Tip: Additional formatters are available in the `extension gallery`. Formatting support can also be configured via `settings` e.g. enabling `editor.formatOnSave`.
+> Tip: 其他格式化程序可以在 `extension gallery` 中找到。格式化支持也可以通过 `settings` 来配置，例如 启用 `editor.formatOnSave`。
 
 
 
 ## Code Folding
-In a large file it can often be useful to collapse sections of code to increase readability. To do this you can simply press `⌥⌘[` to fold the code, press `⌥⌘]` to unfold. Folding can also be done with the +/- icons in the left gutter. To fold all sections use `⌘K ⌘0` or to unfold all use `K⌘ J⌘`.
+在大文件中，通常可以折叠代码段来提高可读性。要做到这一点，你可以简单地按 `⌥⌘[` 折叠代码，按 `⌥⌘]` 展开。折叠也可以通过左侧水槽中的 +/- 图标完成。要折叠所有部分，请使用 `⌘K ⌘0` 或展开全部使用 `K⌘ J⌘`。
 
 ![code Folding](img/codeFolding.png)
 
-> Tip: Folding is based on indentation and as a result can apply to all languages. Simply indent your code to create a foldable section you can fold a certain number of levels with shortcuts like `⌘K ⌘1` through to `⌘K ⌘5`.
+> Tip: 折叠是基于缩进，因此可以适用于所有语言。简单地缩进你的代码来创建一个可折叠的部分，你可以用 `⌘K ⌘1` 到 `⌘K ⌘5`这样的快捷折叠一定数量的关卡。
 
 
 
 ## Errors and Warnings
-Errors and warning are highlighted as you edit you code with squiggles. In the sample below you can see a number of syntax errors. By pressing `F8` you can navigate across them in sequence and see the detailed error message. As you correct them the squiggles and scrollbar indicators will update.
+当你编辑代码时，错误或警告会以波浪线突出显示。在下面的示例中，你可以看到一些语法错误。 通过按 `F8`，你可以依次浏览它们并查看详细的错误信息。当你改正它们时，波形和滚动条指针将会更新。
 
 ![errors And Warnings](img/errorsAndWarnings.png)
 
 
 
 ## Snippets
-You can greatly accelerate your editing through the use of snippets. Simply start typing `try` and select `trycatch` from the suggestion list and press `Tab` to create a `try`->`catch` block. Your cursor will be placed on the text `error` for easy editing. If more than one parameter exists then press `Tab` to jump to it.
+通过使用片段，您可以大大加快编辑速度。只要输入 `try` 并从建议列表中选择 `trycatch` 并按下 `Tab` 来创建 `try`->`catch` 块。你的光标将放在文本 `error`，以便于编辑。如果存在多个参数，则按 `Tab` 跳转到改参数。
 
 ![snippets](img/snippets.png)
 
-> Tip: the `extension gallery` includes snippets for almost every framework and language imaginable. You can also create your own `user-defined snippets`.
+> Tip: `extension gallery` 包含几乎所有language imaginable. You can also create your own `user-defined snippets`.
 
 
 
