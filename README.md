@@ -44,7 +44,7 @@ Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript
 
 1. 复制一行并分别用 `⇧⌥↓` 或 `⇧⌥↑` 将其插入当前位置的上方或下方。
 2. 分别用 `⌥↑` 和 `⌥↓` 键向上或向下移动整行或者选择行。
-3. Delete the entire line with `⇧⌘K`.
+3. 用 `⇧⌘K`删除整行。
 
 ![line Actions](img/lineActions.png)
 
@@ -98,16 +98,16 @@ Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript
 
 ![snippets](img/snippets.png)
 
-> Tip: `extension gallery` 包含几乎所有language imaginable. You can also create your own `user-defined snippets`.
+> Tip: `extension gallery` 包含几乎所有可以想象的框架和语言片段。你也可以创建自己的 `user-defined snippets`。
 
 
 
 ## Emmet
-Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on waht you type in the abbreviation. To use Emmet simply run the command `Emmet: Expand Abbreviation` with the cursor at the end of a valid Emmet abbreviation or snippet and the expansion will occur.
+Emmet 将片段概念提升到了一个全新的高度：你可以键入类似 CSS 的表达式，这些表达式可以进行动态分析，并根据你输入的缩写产生输出。要使用 Emmet，只需要有效的 emmet 缩写或代码片段末尾用光标运行 `Emmet: Expand Abbreviation` 命令，即可进行扩展。
 
 ![emmet](img/emmet.png)
 
-> Tip: The [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) is a great sources of Emmet syntax suggestions. To expand Emmet abbreviations and snippets using the `tab` key use the `emmet.triggerExpansionOnTab` setting.
+> Tip: [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) 是 Emmet 语法建议的重要来源。要使用 `tab` 键来扩展 Emmet 缩写和代码片段，请使用 `emmet.triggerExpansionOnTab` 设置。
 
 
 
