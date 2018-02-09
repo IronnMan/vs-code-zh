@@ -112,7 +112,7 @@ Emmet 将片段概念提升到了一个全新的高度：你可以键入类似 C
 
 
 ## JavaScript Type Checking
-Sometimes type checking your JavaScript code can help you spot mistakes you might have not caught otherwise. You can run the TypeScript type checker against your existing JavaScript code by simply adding a `// @ts-check` comment to the top of your file.
+有时，检查 JavaScript 代码的类型可以帮助您发现可能没有发现的错误。 You can run the TypeScript type checker against your existing JavaScript code by simply adding a `// @ts-check` comment to the top of your file.
 
 ![javascript Type Checking](img/javascriptTypeChecking.png)
 
