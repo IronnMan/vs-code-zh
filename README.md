@@ -116,19 +116,19 @@ Emmet 将片段概念提升到了一个全新的高度：你可以键入类似 C
 
 ![javascript Type Checking](img/javascriptTypeChecking.png)
 
-> Tip: You can also enable the checks workspace or application wide by adding `"javascript.implicitProjectConfig.checkJs": true` to you workspace or user settings and explicitly ignoring files or lines using `// @ts-nocheck` and `// @ts-ignore`. Check out the docs on [JavaScript in VS Code](https://code.visualstudio.com/docs/languages/javascript) to learn more.
+> Tip: 你还可以通过在工作区或用户设置中添加 `"javascript.implicitProjectConfig.checkJs": true` 来启用工作区或应用程序范围，并使用 `// @ts-nocheck` 和 `// @ts-ignore`。查看 [ VS Code 中的 JavaScript](https://code.visualstudio.com/docs/languages/javascript) 文档了解更多信息。
 
 
 
 
 # Thanks!
-Well if you have got this far then you will have touched on some of the editing features in Visual Studio Code. But don't stop now :) We have lots of additional [documentation](https://code.visualstudio.com/docs), [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) and [tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode) for the product that will help you learn how to use it. And while you are here, here are a few additional things you can try:
+那么，如果你已经走到这一步，那么你将有涉及到一些 Visual Studio Code 编辑功能。 但是现在请不要停止 :) 我们有许多 [其他文档](https://code.visualstudio.com/docs)，[介绍性视频](https://code.visualstudio.com/docs/getstarted/introvideos)以及产品的[提示和技巧](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode)，可以帮助你了解如何使用它。而你在这里的时候，还有一些你可以尝试的东西：
 
-- Open the Integrated Terminal by pressing `` ⌃` ``, then see what's possilble by [reviewing the terminal documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
-- Work with version control by pressing `⌃⇧G G`. Understand how to stage, commit, change branches, and view diffs and more by reviewing the [version control documentation](https://code.visualstudio.com/docs/editor/versioncontrol)
-- Browse thousands of extensions in our integrated gallery by pressing `⇧⌘X`. The [documentation] will show you how to see the most popular extensions, disable installed ones and more.
+- 通过按 `` ⌃` `` 打开集成终端，然后通过查看[终端文档](https://code.visualstudio.com/docs/editor/integrated-terminal)查看可能的内容
+- 按 `⌃⇧G` 进行版本控制。了解如何通过查看[版本控制文档](https://code.visualstudio.com/docs/editor/versioncontrol)来分阶段，提交，更改分支和查看差异等等
+- 按 `⇧⌘X` 浏览集成图库中的数千个扩展。改[文档](https://code.visualstudio.com/docs/editor/extension-gallery)将告诉你如何看到最流行的扩展，禁用已安装的扩展。
 
-That's all for now,
+目前为止就这样了，
 
 Happy Coding!
 
