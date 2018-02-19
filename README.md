@@ -1,139 +1,133 @@
-# VS Code 交互式演练场
-VS Code 功能非常齐全。 这个页面突出显示了它们中的一些，并且可以通过使用一些嵌入式编辑器来交互式地尝试它们。有关 VS Code 的编辑器功能的更多详细信息，请参阅我们的 [文档](https://code.visualstudio.com/docs#vscode).
+# Interactive Editor Playground
+The core editor in VS Code is packed with features. This page highlights a number of them and lets you interactively try them out through the use of a number of embedded editors. For full details on the editor features for VS Code and more head over to our [documentation](https://code.visualstudio.com/docs#vscode).
 
-- [Multi-cursor Editing](#multi-cursor-editing)（多光标编辑） - 块选择，选择所有的事件，添加额外的游标等等
-- [IntelliSense](#intellisense) （智能感知）- 为您的代码和外部模块获取代码帮助和参数建议
-- [Line Actions](#line-actions) （行动）- 快速移动线条来重新排序您的代码。
-- [Rename Refactoring](#rename-refactoring) （重命名重构）- 快速重命名您的代码库中的符号。
-- [Refactoring via Extraction](#refactoring-via-extraction) （通过提取进行重构）- 快速提取共同的代码到一个单独的函数或常量。
-- [Formatting](#formatting)（格式化） - 使用内置的文档和选择格式让代码看起来很棒。
-- [Code Folding](#code-folding)（代码折叠） - 通过折叠其他区域来关注代码中最相关的部分。
-- [Errors and Warnings](#errors-and-warnings)（错误和警告） - 在输入时看到错误和警告。
-- [Snippets](#snippets) （片段）- 花费更少的时间用片段打字。
-- [Emmet](#emmet) - 集成的 Emmet 支持将 HTML 和 CSS 编辑提高到一个新的水平。
-- [JavaScript Type Checking](#javascript-type-checking)（JavaScript类型检查） - 使用零配置的 TypeScript 对您的 JavaScript 文件执行类型检查。
+- [Multi-cursor Editing](#multi-cursor-editing) - block selection, select all occurrences, add additional cursors and more
+- [IntelliSense](#intellisense) - get code assistance and parameter suggestions for your code and external modules
+- [Line Actions](#line-actions) - quickly move lines around to re-order your code.
+- [Rename Refactoring](#rename-refactoring) - quickly rename symbols across your code base.
+- [Refactoring via Extraction](#refactoring-via-extraction) - quickly extract common code into a separate function or constant.
+- [Formatting](#formatting) - keep your code looking great with inbuilt document & selection formatting.
+- [Code Folding](#code-folding) - focus on the most relevant parts of your code by folding other areas.
+- [Errors and Warnings](#errors-and-warnings) - see errors and warning as you type.
+- [Snippets](#snippets) - spend less time typing with snippets.
+- [Emmet](#emmet) - integrated Emmet support takes HTML and CSS editing to the next level.
+- [JavaScript Type Checking](#javascript-type-checking) - perform type checking on your JavaScript file using TypeScript with zero configuraion.
 
 
 
 ## Multi-Cursor Editing
-使用多个光标可以一次编辑文档的多个部分，从而大大提高您的工作效率。在下面的代码块中尝试以下操作：
+Using multiple cursors allows you to edit multiple parts of the document at once, greatly improving your productivity. Try the following actions in the code block below:
 
-1. 文本框选择 - 按 `⇧⌥⌘↓`, `⇧⌥⌘→`, `⇧⌥⌘↑`, `⇧⌥⌘←` 的任意组合选择一个文本块。用鼠标选择文字时，也可以按 `⇧⌥`。
-2. 添加一个光标 - 按 `⌥⌘↑` 在上面添加一个新的光标，或者 `⌥⌘↓` 在下面添加一个新的光标。你也可以使用鼠标与 `⌥+Click` 在任何地方添加光标。
-3. 在所有出现的字符串上创建游标 - 选择一个字符串的一个实例，例如 `background-color` 并按下 `⇧⌘L`。 现在你可以通过输入来替换所有的实例。
+1. Box Selection - press any combination of  `⇧⌥⌘↓`, `⇧⌥⌘→`, `⇧⌥⌘↑`, `⇧⌥⌘←` to select a block of text. You can also press `⇧⌥` while selecting text with the mouse.
+2. Add a cursor - press `⌥⌘↑` to add a new cursor above, or `⌥⌘↓` to add a new cursor below. You can also use your mouse with `⌥+Click` to add a cursor anywhere.
+3. Create cursors on all occurrences of a string - select one instance of a string e.g. `background-color` and press `⇧⌘L`. Now you can replace all instances by simply typing.
 
-这是 Multi-Cursor Editing 的冰山一角。 查看选择菜单和我们的 [键盘快捷方式指南](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 以了解更多操作。
+That is the tip of the iceberg for multi-cursor editing. Have a look at the selection menu and our handy [keyboard reference guide](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) for additional actions.
 
 ![keyboard Reference Guide](img/keyboard-guide.png)
 
-> CSS Tipe: 你可能已经注意到，在上面的例子中，我们也为 CSS 提供了内嵌的颜色板，另外如果你把鼠标悬停在像 `#p1` 这样的元素上，我们将会展示如何用 HTML 表示。 这些色板也可以作为颜色选择器，让您轻松更改颜色值。 一些特定于语言的编辑器功能的简单示例。
+> CSS Tipe: you may have noticed in the example above we also provide color swatches inline for CSS, additionally if you hover over an element such as `#p1` we will show how this is represented in HTML. These swatches also act as color pickers that allow you to easily change a color value. A simple example of some lanuage-specific editor features.
 
 
 
 ## IntelliSense
-Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript 预安装。在下面的示例中，将文本光标放在错误下划线的前面，紧跟在点之后，按 `⌃Space` 来调用 IntelliSense。注意这个建议来自 Request API。
+Visual Studio Code comes with the powerful IntelliSense for JavaScript and TypeScript pre-installed. In the below example, position the text cursor in front of the error underline, right after the dot and press `⌃Space` to invoke IntelliSense. Notice how the suggestion comes from the Request API.
 
 ![intelli Sense](img/intelliSense.png)
 
-> Tip: 当我们提供开箱即用的 JavaScript 和  TypeScript 支持时，其他语言可以通过许多 `extensions` 中的一个，通过更好的 IntelliSense 进行升级。
+> Tip: while we ship JavaScript and TypeScript support out of the box other languages can be upgraded with better IntelliSense through one of the many `extensions`.
 
 
 
 ## Line Actions
-由于处理整行文本非常常见，因此我们提供了一组有用的快捷方式来帮助解决这个问题。
+Since it's very common to work with the entire text in a line we provide a set of useful shortcuts to help with this.
 
-1. 复制一行并分别用 `⇧⌥↓` 或 `⇧⌥↑` 将其插入当前位置的上方或下方。
-2. 分别用 `⌥↑` 和 `⌥↓` 键向上或向下移动整行或者选择行。
-3. 用 `⇧⌘K`删除整行。
+1. Copy a line and insert it above or below the current position with `⇧⌥↓` or `⇧⌥↑` respectively.
+2. Move an entire line or selection of lines up or down with `⌥↑` and `⌥↓` respectively.
+3. Delete the entire line with `⇧⌘K`.
 
 ![line Actions](img/lineActions.png)
 
-> Tip: 另一个非常常见的任务是注释掉一段代码 - 你可以通过按下 `⌘/` 来切换注释。
+> Tip: Anoher very common task is to comment out a block of code - you can toggle commenting by pressing `⌘/`.
 
 
 
 ## Rename Refactoring
-重命名符号（如函数名称或变量名称）很容易。在字符 `Book` 前中点击，按 `F2` 来重命名所有实例 - 这将发生在项目中的所有文件中。你也可以在右键单击上下文菜单中看到重构。
+It's easy to rename a symbol such as a function name or variable name. Hit `F2` while in the symbol `Book` to rename all instances - this will occur across all files in a project. You can also see refactoring in the right-click context menu.
 
 ![rename Refactoring](img/renameRefactoring.png)
 
-> JSDoc Tip: 上面的例子还展示了另一种通过使用 `JSDoc` 注释来获得 IntelliSense 提示的方法。你也可以通过调用 `Book` 函数并在 IntelliSense 菜单中查看改功能的增强上下文以及参数来尝试此操作。
+> JSDoc Tip: The example above also showcased another way to get IntelliSense hints by using `JSDoc` comments. You can try this out by invoking the `Book` function and seeing the enhanced context in the IntelliSense menu for the function as well as parameters.
 
 
 
 ## Refactoring via Extraction
-有时候你想把已经写好的代码重构成一个单独的函数或者常量，以后重用。选择你想重构的行并按下 `⌘.`，或者点击小灯泡，选择其中一个 `Extract to...` 选项。 通过选择第 3 行 的 `if` 语句中的代码或任何其他需要重构的常用代码来尝试。
+Sometimes you want to refactor already written code into a separate function or constant to reuse it later. Select the lines you want to refactor out and press `⌘.` or click the little light bulb and choose one of the respective `Extract to...` options. Try it by selecting the code inside the `if`-clause on line 3 or any other common code you want to refactor out.
 
 ![refactoring Via Extraction](img/refactoringViaExtraction.png)
 
 
 
 ## Formatting
-如果没有一个好的格式化程序，保持你的代码整洁是很难的。幸运的是，用 `⇧⌥F` 格式化整个文档的内容是很容易的。格式化可以通过 `⌘K ⌘F`应用于当前选择。 这两个选项也可以通过右键单击上下文菜单来获得。
+Keeping your code looking great is hard without a good formatter. Luckily it's easy to format content either the entire document with `⇧⌥F`. Formatting can be applied to the current selection with `⌘K ⌘F`. Both of these options are also available through the right-click context menu.
 
 ![formatting](img/formatting.png)
 
-> Tip: 其他格式化程序可以在 `extension gallery` 中找到。格式化支持也可以通过 `settings` 来配置，例如 启用 `editor.formatOnSave`。
+> Tip: Additional formatters are available in the `extension gallery`. Formatting support can also be configured via `settings` e.g. enabling `editor.formatOnSave`.
 
 
 
 ## Code Folding
-在大文件中，通常可以折叠代码段来提高可读性。要做到这一点，你可以简单地按 `⌥⌘[` 折叠代码，按 `⌥⌘]` 展开。折叠也可以通过左侧水槽中的 +/- 图标完成。要折叠所有部分，请使用 `⌘K ⌘0` 或展开全部使用 `K⌘ J⌘`。
+In a large file it can often be useful to collapse sections of code to increase readability. To do this you can simply press `⌥⌘[` to fold the code, press `⌥⌘]` to unfold. Folding can also be done with the +/- icons in the left gutter. To fold all sections use `⌘K ⌘0` or to unfold all use `K⌘ J⌘`.
 
 ![code Folding](img/codeFolding.png)
 
-> Tip: 折叠是基于缩进，因此可以适用于所有语言。简单地缩进你的代码来创建一个可折叠的部分，你可以用 `⌘K ⌘1` 到 `⌘K ⌘5`这样的快捷折叠一定数量的关卡。
+> Tip: Folding is based on indentation and as a result can apply to all languages. Simply indent your code to create a foldable section you can fold a certain number of levels with shortcuts like `⌘K ⌘1` through to `⌘K ⌘5`.
 
 
 
 ## Errors and Warnings
-当你编辑代码时，错误或警告会以波浪线突出显示。在下面的示例中，你可以看到一些语法错误。 通过按 `F8`，你可以依次浏览它们并查看详细的错误信息。当你改正它们时，波形和滚动条指针将会更新。
+Errors and warning are highlighted as you edit you code with squiggles. In the sample below you can see a number of syntax errors. By pressing `F8` you can navigate across them in sequence and see the detailed error message. As you correct them the squiggles and scrollbar indicators will update.
 
 ![errors And Warnings](img/errorsAndWarnings.png)
 
 
 
 ## Snippets
-通过使用片段，您可以大大加快编辑速度。只要输入 `try` 并从建议列表中选择 `trycatch` 并按下 `Tab` 来创建 `try`->`catch` 块。你的光标将放在文本 `error`，以便于编辑。如果存在多个参数，则按 `Tab` 跳转到改参数。
+You can greatly accelerate your editing through the use of snippets. Simply start typing `try` and select `trycatch` from the suggestion list and press `Tab` to create a `try`->`catch` block. Your cursor will be placed on the text `error` for easy editing. If more than one parameter exists then press `Tab` to jump to it.
 
 ![snippets](img/snippets.png)
 
-> Tip: `extension gallery` 包含几乎所有可以想象的框架和语言片段。你也可以创建自己的 `user-defined snippets`。
+> Tip: the `extension gallery` includes snippets for almost every framework and language imaginable. You can also create your own `user-defined snippets`.
 
 
 
 ## Emmet
-Emmet 将片段概念提升到了一个全新的高度：你可以键入类似 CSS 的表达式，这些表达式可以进行动态分析，并根据你输入的缩写产生输出。要使用 Emmet，只需要有效的 emmet 缩写或代码片段末尾用光标运行 `Emmet: Expand Abbreviation` 命令，即可进行扩展。
+Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on waht you type in the abbreviation. To use Emmet simply run the command `Emmet: Expand Abbreviation` with the cursor at the end of a valid Emmet abbreviation or snippet and the expansion will occur.
 
 ![emmet](img/emmet.png)
 
-> Tip: [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) 是 Emmet 语法建议的重要来源。要使用 `tab` 键来扩展 Emmet 缩写和代码片段，请使用 `emmet.triggerExpansionOnTab` 设置。
+> Tip: The [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/) is a great sources of Emmet syntax suggestions. To expand Emmet abbreviations and snippets using the `tab` key use the `emmet.triggerExpansionOnTab` setting.
 
 
 
 ## JavaScript Type Checking
-有时，检查 JavaScript 代码的类型可以帮助您发现可能没有发现的错误。你可以通过在你的文件顶部添加 `// @ts-check` 注释来针对你现有的 JavaScript 代码运行 TypeScript 类型检查器。
+Sometimes type checking your JavaScript code can help you spot mistakes you might have not caught otherwise. You can run the TypeScript type checker against your existing JavaScript code by simply adding a `// @ts-check` comment to the top of your file.
 
 ![javascript Type Checking](img/javascriptTypeChecking.png)
 
-> Tip: 你还可以通过在工作区或用户设置中添加 `"javascript.implicitProjectConfig.checkJs": true` 来启用工作区或应用程序范围，并使用 `// @ts-nocheck` 和 `// @ts-ignore`。查看 [ VS Code 中的 JavaScript](https://code.visualstudio.com/docs/languages/javascript) 文档了解更多信息。
+> Tip: You can also enable the checks workspace or application wide by adding `"javascript.implicitProjectConfig.checkJs": true` to you workspace or user settings and explicitly ignoring files or lines using `// @ts-nocheck` and `// @ts-ignore`. Check out the docs on [JavaScript in VS Code](https://code.visualstudio.com/docs/languages/javascript) to learn more.
 
 
 
 
 # Thanks!
-那么，如果你已经走到这一步，那么你将有涉及到一些 Visual Studio Code 编辑功能。 但是现在请不要停止 :) 我们有许多 [其他文档](https://code.visualstudio.com/docs)，[介绍性视频](https://code.visualstudio.com/docs/getstarted/introvideos)以及产品的[提示和技巧](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode)，可以帮助你了解如何使用它。而你在这里的时候，还有一些你可以尝试的东西：
+Well if you have got this far then you will have touched on some of the editing features in Visual Studio Code. But don't stop now :) We have lots of additional [documentation](https://code.visualstudio.com/docs), [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos) and [tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode) for the product that will help you learn how to use it. And while you are here, here are a few additional things you can try:
 
-- 通过按 `` ⌃` `` 打开集成终端，然后通过查看[终端文档](https://code.visualstudio.com/docs/editor/integrated-terminal)查看可能的内容
-- 按 `⌃⇧G` 进行版本控制。了解如何通过查看[版本控制文档](https://code.visualstudio.com/docs/editor/versioncontrol)来分阶段，提交，更改分支和查看差异等等
-- 按 `⇧⌘X` 浏览集成图库中的数千个扩展。改[文档](https://code.visualstudio.com/docs/editor/extension-gallery)将告诉你如何看到最流行的扩展，禁用已安装的扩展。
+- Open the Integrated Terminal by pressing `` ⌃` ``, then see what's possilble by [reviewing the terminal documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- Work with version control by pressing `⌃⇧G G`. Understand how to stage, commit, change branches, and view diffs and more by reviewing the [version control documentation](https://code.visualstudio.com/docs/editor/versioncontrol)
+- Browse thousands of extensions in our integrated gallery by pressing `⇧⌘X`. The [documentation] will show you how to see the most popular extensions, disable installed ones and more.
 
-目前为止就这样了，
+That's all for now,
 
 Happy Coding!
-
-
-
-
-
-
