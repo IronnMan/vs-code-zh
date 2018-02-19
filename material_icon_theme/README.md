@@ -1,6 +1,6 @@
 # Material Icon Theme
 
-The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
+Material Icon Theme 提供了许多基于 Visual Studio Code 的 [Material Design](http://www.uisdc.com/comprehensive-material-design-note)。
 
 
 
@@ -18,11 +18,11 @@ The Material Icon Theme provides lots of icons based on Material Design for Visu
 
 ## Customize folder color
 
-You can change the color of the default folder icon using the command palette:
+您可以使用命令面板更改默认文件夹图标的颜色：
 
 ![set folder color](img/set-folder-color.gif)
 
-or via user settings:
+或通过用户设置：
 
 ```
 "material-icon-theme.folders.color": "#ef5350",
@@ -32,11 +32,11 @@ or via user settings:
 
 ## Folder themes
 
-You can change the design of the folder icons using the command palette:
+您可以使用命令面板更改文件夹图标的设计：
 
 ![set folder theme](img/set-folder-theme.gif)
 
-or via user settings:
+或通过用户设置：
 
 ```
 "material-icon-theme.folders.theme": "specific"
@@ -46,13 +46,13 @@ or via user settings:
 
 ## Custom icon associations
 
-Youcan customize the icon associations directly in the user settings.
+你可以直接在用户设置中自定义图标关联。
 
 
 
-## File associations
+### File associations
 
-With the `*.[extension]` pattern you can define custom file icon associations. For example you could define an icon for `*.sample` and every file that ends with `.sample` will have the defined icon. If there's no leading `*` it will be automatically configured as filename and not as file extension.
+使用 `*.[extension]` 模式，您可以定义自定义文件图标关联。例如，您可以为 `*.sample` 文件定义一个图标，并且每个以 `.sample` 结尾的文件都将具有定义的图标。如果没有前导 `*` ，它将自动配置为文件名而不是文件扩展名。
 
 ```
 "material-icon-theme.files.associations": {
@@ -63,9 +63,9 @@ With the `*.[extension]` pattern you can define custom file icon associations. F
 
 
 
-## Folder associations
+### Folder associations
 
-The following configuration can customize the folder icons. It is also possible to overwrite existing associations and create nice combinations. For example you could change the folder theme to "classic" and define icons only for the folder names you like.
+以下配置可以自定义文件夹图标。也可以覆盖现有的关联并创造出色的组合。例如，您可以将文件夹主题更改为 "classic"，并仅为您喜欢的文件夹名称定义图标。
 
 ```
 "material-icon-theme.folders.associations": {
@@ -76,9 +76,9 @@ The following configuration can customize the folder icons. It is also possible 
 
 
 
-## Language associations
+### Language associations
 
-With the following configuration you can customize the language icons. It is also possible to overwrite existing associations.
+通过以下配置，您可以自定义语言图标。也可以覆盖现有的关联。
 
 ```
 "material-icon-theme.languages.associations": {
@@ -87,18 +87,18 @@ With the following configuration you can customize the language icons. It is als
 }
 ```
 
-Available language ids:
+可用语言 ID：
 
 https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers
 
-You can see the available icon names in the overview above.
+您可以在上面的概述中看到可用的图标名称。
 
 
 
 ## One-click activation
 
-After installation or update you can click on the 'Activate'-button to activate the icon theme, if you haven't already.
-The icons will be visible immediately.
+安装后，如果您还没有更新，您可用点击 'Activate' 按钮激活图标主题。
+图标将立即可见。
 
 ![one click activation](img/oneclickactivation.png)
 
@@ -106,16 +106,16 @@ The icons will be visible immediately.
 
 ## Commands
 
-Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
+按下 `Ctrl-Shift-P` 打开命令选项版并输入 `Material Icons`。
 
 ![command Palette](img/commandPalette.png)
 
-- **Change Folder Theme:** Change the design of the folder icons.
-- **Restore Default Configuration:** Reset the default configurations of the icon theme.
-- **Change Folder Color:** Change the color of the folder icons.
-- **Hide Folder Arrows** Hides the arrows next to the folder icons.
-- **Configure Icon Packs:** Select an icon pack that enables additional icons (e.g. for Angular, React, Ngrx).
-- **Activate Icon Theme:** Activate the icon theme.
+- **Change Folder Theme:** 更改文件夹图标的设计。
+- **Restore Default Configuration:** 重置图标主题的默认配置。
+- **Change Folder Color:** 更改文件夹图标的颜色。
+- **Hide Folder Arrows:** 隐藏文件夹图标旁边的箭头。
+- **Configure Icon Packs:** 选择一个启用其他图标的图标包（例如，用于 Angular, React, Ngrx）
+- **Activate Icon Theme:** 激活图标主题。
 
 
 
@@ -126,11 +126,11 @@ Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
 
 
 
-## How to contribute
+## 如何贡献
 
-Read the [contribution guidelines](https://github.com/PKief/vscode-material-icon-theme/blob/master/CONTRIBUTING.md).
+阅读[贡献指南](https://github.com/PKief/vscode-material-icon-theme/blob/master/CONTRIBUTING.md)。
 
-If you have some questions or icon requests open a [new issue](https://github.com/PKief/vscode-material-icon-theme/issues) on Github.
+如果您有任何问题或图标请求，请在 Github 上打开一个[新问题](https://github.com/PKief/vscode-material-icon-theme/issues)。
 
 
 
