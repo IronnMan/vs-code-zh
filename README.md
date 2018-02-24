@@ -18,9 +18,9 @@ VS Code 功能非常齐全。 这个页面突出显示了它们中的一些，�
 ## Multi-Cursor Editing
 使用多个光标可以一次编辑文档的多个部分，从而大大提高您的工作效率。在下面的代码块中尝试以下操作：
 
-1. 文本框选择 - 按 `⇧⌥⌘↓`, `⇧⌥⌘→`, `⇧⌥⌘↑`, `⇧⌥⌘←` 的任意组合选择一个文本块。用鼠标选择文字时，也可以按 `⇧⌥`。
-2. 添加一个光标 - 按 `⌥⌘↑` 在上面添加一个新的光标，或者 `⌥⌘↓` 在下面添加一个新的光标。你也可以使用鼠标与 `⌥+Click` 在任何地方添加光标。
-3. 在所有出现的字符串上创建游标 - 选择一个字符串的一个实例，例如 `background-color` 并按下 `⇧⌘L`。 现在你可以通过输入来替换所有的实例。
+1. 文本框选择 - 按 `Shift-Option-Cmd-Down`, `Shift-Option-Cmd-Right`, `Shift-Option-Cmd-Up`, `Shift-Option-Cmd-Left` 的任意组合选择一个文本块。用鼠标选择文字时，也可以按 `Shift+Option`。
+2. 添加一个光标 - 按 `Option-Cmd-Up` 在上面添加一个新的光标，或者 `Option-Cmd-Down` 在下面添加一个新的光标。你也可以使用鼠标与 `Option+Click` 在任何地方添加光标。
+3. 在所有出现的字符串上创建游标 - 选择一个字符串的一个实例，例如 `background-color` 并按下 `Shift-Cmd-L`。 现在你可以通过输入来替换所有的实例。
 
 这是 Multi-Cursor Editing 的冰山一角。 查看选择菜单和我们的 [键盘快捷方式指南](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) 以了解更多操作。
 
@@ -31,7 +31,7 @@ VS Code 功能非常齐全。 这个页面突出显示了它们中的一些，�
 
 
 ## IntelliSense
-Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript 预安装。在下面的示例中，将文本光标放在错误下划线的前面，紧跟在点之后，按 `⌃Space` 来调用 IntelliSense。注意这个建议来自 Request API。
+Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript 预安装。在下面的示例中，将文本光标放在错误下划线的前面，紧跟在点之后，按 `Control+Space` 来调用 IntelliSense。注意这个建议来自 Request API。
 
 ![intelli Sense](img/intelliSense.png)
 
@@ -42,9 +42,9 @@ Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript
 ## Line Actions
 由于处理整行文本非常常见，因此我们提供了一组有用的快捷方式来帮助解决这个问题。
 
-1. 复制一行并分别用 `⇧⌥↓` 或 `⇧⌥↑` 将其插入当前位置的上方或下方。
-2. 分别用 `⌥↑` 和 `⌥↓` 键向上或向下移动整行或者选择行。
-3. 用 `⇧⌘K`删除整行。
+1. 复制一行并分别用 `Shift-Option-Down` 或 `Shift-Option-Up` 将其插入当前位置的上方或下方。
+2. 分别用 `Option+Up` 和 `Option+Down` 键向上或向下移动整行或者选择行。
+3. 用 `Shift-Cmd-K` 删除整行。
 
 ![line Actions](img/lineActions.png)
 
@@ -69,7 +69,7 @@ Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript
 
 
 ## Formatting
-如果没有一个好的格式化程序，保持你的代码整洁是很难的。幸运的是，用 `⇧⌥F` 格式化整个文档的内容是很容易的。格式化可以通过 `⌘K ⌘F`应用于当前选择。 这两个选项也可以通过右键单击上下文菜单来获得。
+如果没有一个好的格式化程序，保持你的代码整洁是很难的。幸运的是，用 `Shift-Option-F` 格式化整个文档的内容是很容易的。格式化可以通过 `右⌘K 左⌘F`应用于当前选择。 这两个选项也可以通过右键单击上下文菜单来获得。
 
 ![formatting](img/formatting.png)
 
@@ -78,7 +78,7 @@ Visual Studio Code 附带了强大的 IntelliSense for JavaScript and TypeScript
 
 
 ## Code Folding
-在大文件中，通常可以折叠代码段来提高可读性。要做到这一点，你可以简单地按 `⌥⌘[` 折叠代码，按 `⌥⌘]` 展开。折叠也可以通过左侧水槽中的 +/- 图标完成。要折叠所有部分，请使用 `⌘K ⌘0` 或展开全部使用 `K⌘ J⌘`。
+在大文件中，通常可以折叠代码段来提高可读性。要做到这一点，你可以简单地按 `Option-Cmd-[` 折叠代码，按 `Option-Cmd-]` 展开。折叠也可以通过左侧水槽中的 +/- 图标完成。要折叠所有部分，请使用 `⌘K ⌘0` 或展开全部使用 `K⌘ J⌘`。
 
 ![code Folding](img/codeFolding.png)
 
@@ -124,9 +124,9 @@ Emmet 将片段概念提升到了一个全新的高度：你可以键入类似 C
 # Thanks!
 那么，如果你已经走到这一步，那么你将有涉及到一些 Visual Studio Code 编辑功能。 但是现在请不要停止 :) 我们有许多 [其他文档](https://code.visualstudio.com/docs)，[介绍性视频](https://code.visualstudio.com/docs/getstarted/introvideos)以及产品的[提示和技巧](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode)，可以帮助你了解如何使用它。而你在这里的时候，还有一些你可以尝试的东西：
 
-- 通过按 `` ⌃` `` 打开集成终端，然后通过查看[终端文档](https://code.visualstudio.com/docs/editor/integrated-terminal)查看可能的内容
-- 按 `⌃⇧G` 进行版本控制。了解如何通过查看[版本控制文档](https://code.visualstudio.com/docs/editor/versioncontrol)来分阶段，提交，更改分支和查看差异等等
-- 按 `⇧⌘X` 浏览集成图库中的数千个扩展。改[文档](https://code.visualstudio.com/docs/editor/extension-gallery)将告诉你如何看到最流行的扩展，禁用已安装的扩展。
+- 通过按 `` Control+` `` 打开集成终端，然后通过查看[终端文档](https://code.visualstudio.com/docs/editor/integrated-terminal)查看可能的内容
+- 按 `Control-Shift-G` 进行版本控制。了解如何通过查看[版本控制文档](https://code.visualstudio.com/docs/editor/versioncontrol)来分阶段，提交，更改分支和查看差异等等
+- 按 `Shift-Cmd-X` 浏览集成图库中的数千个扩展。改[文档](https://code.visualstudio.com/docs/editor/extension-gallery)将告诉你如何看到最流行的扩展，禁用已安装的扩展。
 
 目前为止就这样了，
 
